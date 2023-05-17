@@ -1,0 +1,99 @@
+body {
+    background-image: url("../PROYECTO-1/RECURSOS/fondo-circulo.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor {
+    background-color: transparent;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.menu {
+    margin-top: 40px ;
+}
+
+.lista {
+    background-color: transparent;
+    font-size: 20px;
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.uno, .dos, .tres {
+    border-bottom: 1px solid transparent;
+}
+
+.uno:hover, .dos:hover, .tres:hover {
+    color: rgb(74, 99, 236);
+    cursor: pointer;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 60px;
+    color: rgb(200, 50, 0)
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 600px;
+    height: 450px;
+}
+
+.sub-noticias {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 35px;
+}
+
+#rojo {
+    padding-left: 8px;
+    color: rgb(200, 50, 0);
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#email {
+    width: 520px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid rgb(158, 154, 154);
+    font-size: 20px;
+}
+
+#email::placeholder {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+#enviar {
+    background-color: rgb(226, 64, 226);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    border: none;
+    color: azure;
+    width: 220px;
+}
+
+#enviar:hover {
+    background-color: rgb(201, 10, 201);
+    cursor: pointer;
+    transition: background-color ease-in 0.3s;
+    transition: pointer ease-in 0.3s;
+}
