@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    font-family: sans-serif;
+}
+
+.logo {
+    height: 40px;
+}
+
+header a, h2 {
+    color: white;
+    text-decoration: none;
+}
+
+.izquierda {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.titulo {
+    margin: 0 20px;
+}
+
+.derecha {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+header a:hover, h2:hover {
+    color: darkkhaki;
+}
+
+.cuerpo {
+    background-image: url("./RECURSOS/soldador.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 86vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#titulo, #parrafo {
+    text-align: center;
+    margin: 0;
+    color: aliceblue;
+}
+
+#titulo {
+    font-size: 110px;
+}
+
+#parrafo {
+    font-size: 40px;
+    color: darkkhaki;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: solid;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.pie {
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
