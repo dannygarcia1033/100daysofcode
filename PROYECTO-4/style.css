@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+body {
+    background-color: beige;
+}
+
+main {
+    margin: 25px;
+}
+
+.header {
+    display: flex;
+    margin: 25px;
+    height: 50px;
+}
+
+.izquierda, .derecha {
+    display: flex;
+    width: 50%;
+    background-color: transparent
+}
+
+.izquierda {
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    border-bottom: 1px solid blue;
+}
+
+.derecha {
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-bottom: 1px solid blue;
+}
+
+.registrate {
+    width: 75%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.lenguaje, .link, .carrito {
+    display: flex;
+    width: 25%;
+    align-items: center;
+}
+
+.header img {
+    width: 20px;
+    height: 20px;
+    padding: 0px 10px;
+}
+
+.header p {
+    font-size: 14px;
+}
+
+.titulo-prin, .titulo-sec {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-prin h1 {
+    font-size: 65px;
+}
+
+.titulo-sec h2 {
+    padding: 35px;
+    font-size: 50px;
+}
+
+.menu {
+    background-color: transparent
+
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 100px;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.cuerpo {
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.cuerpo p {
+    text-align: center;
+    margin: 35px 0px;
+    font-size: 45px;
+    color: aliceblue;
+}
+
+.cuerpo button, .btn-end{
+    width: 160px;
+    height: 50px;
+    margin: 15px 0px;
+    border-radius: 15px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.cuerpo button:hover, .btn-end:hover {
+    background-color: antiquewhite;
+    cursor: pointer;;
+}
+
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.imagenes img {
+    width: 25%;
+    padding: 15px 20px;
+    border-radius: 45px;
+    opacity: 0.8;
+    border: 1px solid transparent;
+}
+
+.imagenes img:hover {
+    opacity: 0.9;
+    cursor: pointer;
+    border: 1px solid rgb(88, 88, 218);
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+}
+
+.footer p {
+    padding-right: 30px ;
+}
