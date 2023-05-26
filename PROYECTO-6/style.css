@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    display: flex;
+    background-image: url("RECURSOS/mirandohorizonte.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tarjeta {
+    background-color: rgb(116, 194, 218);
+    display: block;
+    text-align: center;
+    height: 600px;
+    width: 23%;
+    border-radius: 35px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    color: white;
+    opacity: 0.9;
+}
+
+.tarjeta h2 {
+    height: 23%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 57px;
+    padding-top: 35px;
+    color: rgb(106, 106, 238);
+}
+
+.tarjeta p {
+    height: 33%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+}
+
+.boton {
+    height: 20%;
+}
+
+.boton button {
+    width: 220px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.boton button:hover {
+    background-color: rgb(171, 170, 233);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.imagen {
+    height: 20%;
+}
+
+.icon {
+    height: 60px;
+    width: 60px;
+}
+
+
+
